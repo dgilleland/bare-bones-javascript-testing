@@ -1,0 +1,10 @@
+# This .gitignore is minimal in nature as the scope of this repository is fairly narrow.
+# Adjust to suit your needs.
+
+# Personally, I like to have a couple of reserved folders for local untracked content
+[Nn]o[Tt]rack
+[Rr]n[Dd]
+
+# These are the essential items to ignore
+node_modules
+dist
