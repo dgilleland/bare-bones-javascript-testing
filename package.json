@@ -1,14 +1,14 @@
 {
   "name": "bare-bones-javascript-testing",
   "version": "1.0.0",
-  "description": "",
+  "description": "A bare-bones sample of testing JavaScript with vitest and JSDOM that explores edge cases. The pcontext is its use in education when testing students who are learning JavaScript for the first time.",
   "main": "index.js",
   "scripts": {
     "test": "vitest"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "dgilleland (Dan Gilleland)",
+  "license": "MIT",
   "devDependencies": {
     "jsdom": "^24.0.0",
     "vite": "^5.2.11",
