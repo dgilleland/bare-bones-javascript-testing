@@ -1,4 +1,9 @@
 <body>
     <div id="content"></div>
-    <script>document.getElementById("content").append(document.createElement("hr"));</script>
+    <script>
+        const span = document.createElement("span");
+        span.innerText = "more words";
+        const div = document.getElementById("content");
+        div.append(span);
+    </script>
 </body>
